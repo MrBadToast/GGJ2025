@@ -837,7 +837,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 812322324}
         m_TargetAssemblyTypeName: TitleBehaivor, Assembly-CSharp
-        m_MethodName: LoadMainScene
+        m_MethodName: LoadFirstScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

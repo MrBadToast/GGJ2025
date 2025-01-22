@@ -10,6 +10,11 @@ public class TitleBehaivor : MonoBehaviour
         SceneLoader.Instance.LoadNewScene(mainGameScene);
     }
 
+    public void LoadFirstScene()
+    {
+        SceneLoader.Instance.LoadNewScene("Title");
+    }
+
     public void Quit()
     {
         Application.Quit();

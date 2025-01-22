@@ -94,6 +94,7 @@ public class GameplaySystem : StaticSerializedMonoBehaviour<GameplaySystem>
             for (float time = 0; time < 10f; time += Time.fixedDeltaTime)
             {
                 PlayerCore.Instance.RigBody.AddForce((BubbleObject.position + new Vector3(Mathf.Cos(time*2)*2,Mathf.Sin(time*2)*2) - PlayerCore.Instance.transform.position).normalized * 30);
+                BubbleObject.position += new Vector3(0f, 0.07f, 0f);
                 yield return new WaitForFixedUpdate();
             }
 
